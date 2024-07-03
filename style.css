@@ -1,0 +1,267 @@
+/*When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for t
+
+
+
+
+
+.option-end {
+   display: none;
+}
+
+
+
+/* Feel free to change any of the styling below!*/
+
+.option-end {
+    display: none;
+ }
+
+.option-one-screen {
+    display: none;
+ }
+
+ .option-two-screen {
+    display: none;
+ }
+
+ .option-one-dragon {
+    display: none;
+ }
+
+ .option-one-goblin {
+    display: none;
+ }
+
+ .option-two-archmage {
+    display: none;
+ }
+
+ .option-two-dragon {
+    display: none;
+ }
+
+ .option-two-goblin {
+    display: none;
+ }
+
+ .option-end{
+    display: none;
+ }
+
+
+
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body with a background color or image if desired */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8d1c1c;
+    text-align: center;
+    padding: 0px;
+}
+
+/* Style the title of your story */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style the story opening container */
+.story-opening {
+    background-color: #583434;
+    border: 10px solid #080808;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the story image */
+.story-opening img {
+    justify-content: center;
+    max-width: 450px;
+    height: 450px;
+    margin-bottom: 10px;
+    border: 10px solid red;
+    border-radius: 10px;
+}
+
+/* Style the story opening message */
+.story-opening h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style the buttons container */
+.buttons {
+    margin: 0px;
+}
+
+/* Style the option buttons */
+button {
+    font-size: 16px;
+    padding: 10px 10px;
+    margin: 10px;
+    background-color: #ea0f0f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the screens for option one and option two */
+.option-one-goblin{    background-color: #583434;
+    border: 10px solid #080808;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+/* Style the screens for option one and option two */
+.option-one-dragon{ 
+    background-color: #583434;
+    border: 10px solid #080808;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.option-two-archmage{ 
+    background-color: #583434;
+    border: 10px solid #080808;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.option-two-goblin{ 
+    background-color: #583434;
+    border: 10px solid #080808;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.option-end{ 
+    background-color: #583434;
+    border: 10px solid #080808;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.option-one-screen,
+.option-two-screen,
+.option-one-end,
+.option-two-end {
+    background-color: #583434;
+    border: 10px solid #080808;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+/* Style the images in the screens */
+.option-one-dragon img{    
+    justify-content: center;
+    max-width: 450px;
+    height: 450px;
+    margin-bottom: 10px;
+    border: 10px solid red;
+    border-radius: 10px;
+}
+
+
+.option-two-goblin img{    
+    justify-content: center;
+    max-width: 450px;
+    height: 450px;
+    margin-bottom: 10px;
+    border: 10px solid red;
+    border-radius: 10px;
+}
+
+.option-two-archmage img{    
+    justify-content: center;
+    max-width: 450px;
+    height: 450px;
+    margin-bottom: 10px;
+    border: 10px solid red;
+    border-radius: 10px;
+}
+
+.option-end img{    
+    justify-content: center;
+    max-width: 450px;
+    height: 450px;
+    margin-bottom: 10px;
+    border: 10px solid red;
+    border-radius: 10px;
+}
+
+
+
+
+.option-one-goblin img,
+.option-two-dragon img,
+.option-one-screen img,
+.option-two-screen img,
+.option-one-end img,
+.option-two-end img {
+    justify-content: center;
+    max-width: 450px;
+    height: 450px;
+    margin-bottom: 10px;
+    border: 10px solid red;
+    border-radius: 10px;
+}
+
+/* Style the text in the screens */
+.option-one-dragon h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.option-two-archmage h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.option-two-goblin h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.option-end h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.option-one-goblin h1,
+.option-two-dragon h1,
+.option-one-screen h1,
+.option-two-screen h1,
+.option-one-end h1,
+.option-two-end h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
